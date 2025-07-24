@@ -1,16 +1,14 @@
 # Secret Entrances, Confounding Rooms: Enfer's Trial
 
-This is the original, legacy version of the game we created for Game Off 2024, theme "Secret". A minimalistic, action-based dungeon crawler.
+This is the original GameMaker version of the game we created for Game Off 2024, theme "Secret". A minimalistic, action-based dungeon crawler.
+
+An experimental [Godot remake](https://github.com/andOlga/game-off-2024-godot) is also available.
 
 # Playing
 
-There are no binary builds of this version available. Please see the [godot](../godot) branch if you want to just play the game.
+...
 
 # Building
-
-It is not recommended to use this version of the game as a base for development.
-
-However, if you must:
 
 1. Read and accept the game's [LICENSE](LICENSE.md).
 2. Download a copy of [GameMaker](https://gamemaker.io/en/download). Get the latest stable version, not the LTS release.
