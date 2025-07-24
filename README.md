@@ -6,7 +6,7 @@ An experimental [Godot remake](https://github.com/andOlga/game-off-2024-godot) i
 
 # Playing
 
-...
+You may play the game [here](https://andolga.github.io/game-off-2024-gamemaker/). Note that you may not attempt to download the files from this public relase. You must build the game yourself if you wish to redistribute it.
 
 # Building
 
