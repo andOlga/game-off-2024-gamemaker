@@ -11,6 +11,7 @@ if (global.input.start) {
 	InputController.set_cheats(false)
 	var roomZero = asset_get_index("r0")
 	if (roomZero != -1) {
+		// Feather disable once GM1041
 		room_goto(roomZero)
 	} else {
 		RoomExit.alarm[0] = 5

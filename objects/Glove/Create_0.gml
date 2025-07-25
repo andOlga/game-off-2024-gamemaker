@@ -7,6 +7,7 @@ use = function () {
 		}
 	} else if (!instance_exists(GloveBeam)) {
 		with (Player) {
+			// Feather disable once GM2064
 			instance_create_depth(x, y, depth + 1, GloveBeam, {player_instance: id})
 		}
 	}

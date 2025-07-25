@@ -15,6 +15,7 @@ finish_room = function () {
 	var rooms_left = array_length(global.remaining_rooms)
 	if (rooms_left > 0) {
 		var next_room = method_call(choose, global.remaining_rooms)
+		// Feather disable once GM1041
 		room_goto(asset_get_index($"r{next_room}"))
 	} else {
 		room_goto(EndScreen)
