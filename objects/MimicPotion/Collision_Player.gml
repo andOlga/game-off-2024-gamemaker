@@ -11,6 +11,7 @@ with (MimicPotionTarget) {
 		if (other.ham_bothered) {
 			player_instance.is_hurting = true
 			player_instance.image_blend = c_aqua
+			player_instance.ham_bothered = true
 		}
 	}
 }
