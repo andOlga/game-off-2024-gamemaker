@@ -7,6 +7,12 @@ if (is_in_fade) {
 if (global.input.start) {
 	is_in_fade = true
 	random_set_seed(seed)
+	// Prepare RNG table so that future random calls do not affect room order
+	global.rng_table = []
+	global.rng_idx = 0
+	for (var i = 0; i < 256; i++) {
+		array_push(global.rng_table, random(0.999999999999))
+	}
 	InputController.can_pause = true
 	InputController.set_cheats(false)
 	var roomZero = asset_get_index("r0")
